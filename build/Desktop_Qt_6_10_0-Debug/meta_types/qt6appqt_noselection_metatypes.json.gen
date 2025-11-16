@@ -1,0 +1,60 @@
+[
+    {
+        "classes": [
+            {
+                "className": "WindowAction",
+                "lineNumber": 10,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "button_yes",
+                                "type": "QObject*"
+                            },
+                            {
+                                "name": "button_no",
+                                "type": "QObject*"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 16,
+                        "name": "bindButtons",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 21,
+                        "name": "onMouseMovedOnButtonNo",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 34,
+                        "name": "dialog_yes",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 44,
+                        "name": "dialog_no",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "WindowAction",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "main.h",
+        "outputRevision": 69
+    }
+]

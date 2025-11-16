@@ -31,9 +31,19 @@ public:
         button_no->setProperty("y", newY);
     }
 
+    Q_INVOKABLE void dialog_yes() {
+        QMessageBox msgBox;
+        msgBox.setText("You are really idiot!");
+        msgBox.setIcon(QMessageBox::Information);
+        msgBox.setStandardButtons(QMessageBox::Close);
+
+        int ret = msgBox.exec();
+        if(ret == QMessageBox::Close) QCoreApplication::quit();
+    }
+
     Q_INVOKABLE void dialog_no() {
         QMessageBox msgBox;
-        msgBox.setText("You are idiot!");
+        msgBox.setText("You are so clever!");
         msgBox.setIcon(QMessageBox::Information);
         msgBox.setStandardButtons(QMessageBox::Close);
 

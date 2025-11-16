@@ -29,6 +29,7 @@ Window {
         text: "NO"
         id:button_no
         font.pixelSize: 60
+        onClicked: WindowAction.dialog_no()
 
         MouseArea {
             hoverEnabled: true
@@ -43,6 +44,6 @@ Window {
         text: "YES"
         id:button_yes
         font.pixelSize: 60
-        onClicked: WindowAction.dialog_no()
+        onClicked: WindowAction.dialog_yes()
     }
 }
