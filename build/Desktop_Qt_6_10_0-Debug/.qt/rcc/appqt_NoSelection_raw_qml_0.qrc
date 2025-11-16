@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt_NoSelection/">
-    <file alias="main.qml">/home/hieronymus/projects/qt_NoSelection/main.qml</file>
-  </qresource>
-</RCC>
-

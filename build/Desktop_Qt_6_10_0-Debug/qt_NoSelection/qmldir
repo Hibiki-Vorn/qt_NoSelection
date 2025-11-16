@@ -1,5 +1,0 @@
-module qt_NoSelection
-typeinfo appqt_NoSelection.qmltypes
-prefer :/qt_NoSelection/
-depends QtQuick
-

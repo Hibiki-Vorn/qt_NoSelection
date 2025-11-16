@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt_NoSelection">
-    <file alias="qmldir">/home/hieronymus/projects/qt_NoSelection/build/Desktop_Qt_6_10_0-Debug/qt_NoSelection/qmldir</file>
-  </qresource>
-</RCC>
-
