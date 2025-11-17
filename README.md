@@ -11,12 +11,6 @@ The **NO** button runs away from the mouse cursor, while clicking **YES** shows 
 * Built with **Qt Quick Controls 2** and **Material theme**.
 * Cross-platform (Windows / Linux / macOS).
 
-## Demo
-
-```
-[Place a screenshot or GIF here showing the NO button moving away from the cursor]
-```
-
 ## Project Structure
 
 ```
@@ -48,8 +42,8 @@ sudo apt install qt6-base-dev qt6-qml-dev cmake build-essential
 ```bash
 mkdir build
 cd build
-cmake ..
-make -j$(nproc)
+cmake .. -DCMAKE_PREFIX_PATH=<QtInstallPath>
+cmake --build .
 ```
 
 ### 3. Run the program
