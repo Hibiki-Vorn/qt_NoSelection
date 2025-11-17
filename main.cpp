@@ -1,6 +1,9 @@
+#include <QFile>
+#include <QDebug>
 #include <QLocale>
-#include <QQmlContext>
+#include <QResource>
 #include <QTranslator>
+#include <QQmlContext>
 #include <QApplication>
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
@@ -9,6 +12,7 @@
 
 int main(int argc, char *argv[])
 {
+
     QApplication app(argc, argv);
 
     QTranslator translator;

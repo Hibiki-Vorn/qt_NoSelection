@@ -11,8 +11,9 @@ Window {
     color: "#121212"
     Material.theme: Material.Dark
     title: qsTr("Are you idiot ?")
+    flags: Qt.WindowStaysOnTopHint
     Material.accent: Material.DeepPurple
-    Component.onCompleted:WindowAction.bindButtons(button_yes,button_no)
+    Component.onCompleted:WindowAction.bind(mainWindow,button_yes,button_no)
 
     Text {
         height: 100
